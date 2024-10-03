@@ -3,13 +3,15 @@ This project was built with Laravel version 4.5.1.
 
 ## Development Server
 
-Run php artisan serve to start the development server.
-Visit http://127.0.0.1:8000/ to interact with the API.
+Run `php artisan serve` to start the development server.
+Visit `http://127.0.0.1:8000/` to interact with the API.
 
 ## API Endpoints
 
 /api/login - User login (JWT-based authentication).
+
 /api/customers - Access customer data (protected endpoint).
+
 /api/products - Access Product data.
 
 ## Database Setup
